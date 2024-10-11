@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.pagination {
+
+  a {
+    padding: 1rem;
+  }
+
+  li {
+    &.active {
+      a {
+        font-weight: bold;
+      }
+    }
+  }
+
+}
